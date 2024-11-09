@@ -24,7 +24,7 @@ To set up your combined REMnux and SIFT environment:
 2. Run the script:
    ```bash
    sudo ./sift-remnux-install.sh
-**instalation Script Details**
+**Installation Script Details**
 The script performs the following steps:
 
 Download and Install cast Tool: cast is a command-line installer for SIFT. It is downloaded from the official GitHub releases and installed as a .deb package.
