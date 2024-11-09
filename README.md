@@ -24,7 +24,15 @@ To set up your combined REMnux and SIFT environment:
 2. Run the script:
    ```bash
    sudo ./sift-remnux-install.sh
-   
+**instalation Script Details**
+The script performs the following steps:
+
+Download and Install cast Tool: cast is a command-line installer for SIFT. It is downloaded from the official GitHub releases and installed as a .deb package.
+
+Set up SaltStack Key and Sources: Adds the SaltStack public key and source list required for installing SIFT through SaltStack.
+
+Install SIFT: Runs the cast install command to install SIFT in server mode, providing forensic tools directly on REMnux.
+
 ## Error Handling
 
 If you encounter repository conflicts during the installation, such as the following errors:
@@ -38,15 +46,6 @@ You can resolve these issues by running the `fix_salt_repositories.sh` script in
 cd sift-remnux-installer
 sudo ./fix_salt_repositories.sh
 ```
-
-**instalation Script Details**
-The script performs the following steps:
-
-Download and Install cast Tool: cast is a command-line installer for SIFT. It is downloaded from the official GitHub releases and installed as a .deb package.
-
-Set up SaltStack Key and Sources: Adds the SaltStack public key and source list required for installing SIFT through SaltStack.
-
-Install SIFT: Runs the cast install command to install SIFT in server mode, providing forensic tools directly on REMnux.
 
 **Error Handling Script Details**
 
