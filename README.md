@@ -57,7 +57,7 @@ The script performs the following steps:
 4. **Run `sudo apt-get update`**: This command refreshes the package list to ensure the changes take effect.
 5. **Re-run the SIFT installation**: After resolving the conflicts, the script continues the SIFT installation automatically using the `cast` tool.
 
-After running the script, the installation will automatically continue without the repository conflicts.
+ After running the script, the installation will automatically continue without the repository conflicts.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
