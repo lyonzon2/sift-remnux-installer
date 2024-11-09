@@ -19,7 +19,7 @@ To set up your combined REMnux and SIFT environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sift-remnux-installer.git
+   git clone https://github.com/lyonzon2/sift-remnux-installer.git
    cd sift-remnux-installer
 2. Run the script:
    ```bash
