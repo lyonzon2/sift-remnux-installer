@@ -60,4 +60,4 @@ The script performs the following steps:
  After running the script, the installation will automatically continue without the repository conflicts.
 
 License
-[This project is licensed under the MIT License. See the LICENSE file for more details.]
+[This project is licensed under the MIT License.]
